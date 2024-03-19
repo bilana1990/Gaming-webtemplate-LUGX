@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="Our_Shop.css"> -->
+
+    <link rel="stylesheet" href="Product details.css">
+    <title>LUXG-Gaming Website</title>
+</head>
+<body>
+    <!-- header section starts -->
+    <header>
+        <div class="header_logo">
+            <a href="index.html">
+            <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a id="our_shop" href="Our_Shop.html">Our Shop</a></li>
+                <li><a id="product_details" href="Product details.html">Product details</a></li>
+                <li><a id="contact" href="contact us.html">Contact Us</a></li>
+                <li><a href="#">Sing In</a></li>
+            </ul>
+        </nav>
+        
+      
+    </header>
+    <!-- h1 section -->
+    <section class="heading">
+        <h1>OUR SHOP</h1>
+    </section>
+
+    <!-- call of duty section -->
+    <section class="call_of_duty">
+        <img src="img/single-game.jpg" alt="">
+        <div class="call_of_duty_22">
+            <h2>Call Of Dury: Modern Warfare II</h2>
+            <h4>$22</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quam est quasi, iure fugiat impedit distinctio,<br>
+                 dolorem atque eligendi architecto inventore minima numquam dignissimos veritatis non.<br>
+                  Molestias a deleniti earum.</p>
+                  <form action="#">
+                    <input type="text" name="text" placeholder="1">
+                    <button><i class="fa fa-suitcase"></i> ADD TO CARD</button>
+                  </form>
+        </div>
+    </section>
+
+    <!-- DESCRIPTION section starts -->
+    <section class="DESCRIPTION">
+    <div class="menu">
+        <!-- <a id="showall">All</a> -->
+        <a id="DESCRIPTION" class="Single" target="1">DESCRIPTION |</a>
+        <a id="REVIWERS" class="Single" target="2">Reviewers</a>
+        <!-- <a class="Single" target="3">Three</a> -->
+    </div>
+
+    <section class="target_box">
+        <div id="div1" class="target">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Natus, facilis. Aliquam porro ab, incidunt itaque dolorum alias, sapiente ex deleniti<br>
+             cumque, neque voluptate beatae aut nesciunt id ad? Commodi, itaque!</div>
+        <div id="div2" class="target">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+             Vero vitae eum cum excepturi quia ex modi iusto, voluptates veniam praesentium<br>
+              aliquam perspiciatis laborum quibusdam porro consectetur atque dolorum, expedita ipsa?</div>
+        <div id="div3" class="target"></div>
+    </section>
+    </section>
+
+
+    <!-- Realted games section starts -->
+    <section class="related_games">
+       <h5>ACTION</h5>
+       <h2>Related Games</h2>
+       <button>VIEW ALL</button>
+       <div class="games_5_blocks">
+        <div class="assasin_creed">
+            <a href="index.html">
+            <img src="img/categories-01.jpg" alt="img">
+            <h5>Action</h5>
+            </a>
+          </div>
+
+          <div class="assasin_creed">
+            <a href="index.html">
+            <img src="img/categories-02.jpg" alt="img">
+            <h5>Action</h5>
+            </a>
+          </div>
+
+          <div class="assasin_creed">
+            <a href="index.html">
+            <img src="img/categories-03.jpg" alt="img">
+            <h5>Action</h5>
+            </a>
+          </div>
+
+          <div class="assasin_creed">
+            <a href="index.html">
+            <img src="img/categories-04.jpg" alt="img">
+            <h5>Action</h5>
+            </a>
+          </div>
+
+          <div class="assasin_creed">
+            <a href="index.html">
+            <img src="img/categories-05.jpg" alt="img">
+            <h5>Action</h5>
+            </a>
+          </div>
+       </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Copyright &#169; 2024 All Rights Reserved. Design by Gio Bilana</p>
+
+        <a href="#" class="to-top">&#8687;</a>
+      </footer>
+
+
+
+      <script>
+      const toTop=document.querySelector(".to-top");
+
+      window.addEventListener("scroll", () => {
+          if(window.pageYOffset > 100){
+              toTop.classList.add("active");
+          }else{
+              toTop.classList.remove("active");
+          }
+      });
+      </script>
+
+
+<script type="text/javascript">
+    jQuery(function(){
+        jQuery('#showall').click(function(){
+            jQuery('.target').show();
+        });
+        jQuery('.Single').click(function(){
+            jQuery('.target').hide();
+            jQuery('#div'+$(this).attr('target')).show();
+        });
+    });
+</script>

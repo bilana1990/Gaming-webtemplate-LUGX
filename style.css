@@ -1,0 +1,754 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: 'Roboto';font-size: 22px;
+}
+/* header styles starts */
+header{
+    background-image: url(img/banner-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px 0px 70px 70px;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+
+
+.header_logo{
+    margin-top: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 70px;
+}
+nav ul li a{
+    color: white;
+
+}
+
+
+
+
+nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+nav ul li:nth-child(1){
+    background-color: rgb(29, 72, 230);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+nav ul li:nth-child(2):hover{
+    background-color: rgb(29, 72, 230);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: -10px;
+    transition: .4s;
+}
+nav ul li:nth-child(3):hover{
+    background-color: rgb(29, 72, 230);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: -10px;
+    transition: .4s;
+}
+nav ul li:nth-child(4):hover{
+    background-color: rgb(29, 72, 230);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: -10px;
+    transition: .4s;
+}
+nav ul li:nth-child(5){
+    background-color: rgb(183, 7, 7);
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+
+
+/* /welcome section styles starts */
+.welcome{
+    margin-top: -450px;
+    margin-left: 150px;
+}
+.welcome h4{
+    color: white;
+}
+.welcome h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.welcome img{
+    margin-left: 180px;
+}
+.welcome p{
+    font-size: 17px;
+    color: white;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.welcome form{
+    margin-top: 40px;
+}
+.welcome form input{
+    border-radius: 40px;
+    height: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 500px;
+}
+.welcome form button{
+    background-color: rgb(183, 7, 7);
+    border-radius: 40px;
+    border: 1px solid rgb(183, 7, 7);
+    height: 52px;
+    cursor: pointer;
+    color: white;
+    /* padding: 20px; */
+    font-size: 15px;
+    margin-left: -100px;
+    width: 200px;
+    
+}
+.welcome form button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+.banner_img img{
+    margin-left: 60%;
+    margin-top: -450px;
+    border-radius: 20px;
+}
+.dolar_22{
+    margin-left: 75%;
+    margin-top: -470px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+}
+.percent_40{
+    background-color:rgb(183, 7, 7) ;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   /* padding: 20px 20px 20px 20px; */
+   /* text-align: center; */
+   border-radius: 50%;
+   font-size: 30px;
+   color: white;
+   margin-left: 52%;
+   position: absolute;
+   z-index: 1;
+   margin-top: -60px;
+   font-weight: bolder;
+}
+.free_storage{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #888888;
+    
+}
+.free_storage img{
+    background-color: blue;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.free_storage h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.all_blocks a{
+    color: black;
+}
+.free_storage:hover img{
+    background-color: rgb(183, 7, 7);
+    transition: .4s;
+}
+.all_blocks{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+/* trending section styles starts */
+
+.trending{
+    margin-top: 200px;
+}
+.trending h3{
+    color: rgb(183, 7, 7);
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.trending h2{
+    margin-left: 150px;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.trending button{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -70px;
+    background-color:rgb(183, 7, 7) ;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(183, 7, 7);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.trending button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+.assasin_creed{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    background-color: rgb(192, 176, 176);
+}
+.assasin_creed img{
+    border-radius: 30px 30px 0px 0px;
+}
+.assasin_creed h5{
+    color: rgb(70, 68, 68);
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.assasin_creed h4{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.fa{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -40px;
+    color: white;
+    background-color:rgb(183, 7, 7) ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+.assasin_creed:hover h4{
+    transition: .4s;
+    color: blue;
+}
+.assasin_creed:hover .fa{
+    background-color: blue;
+    transition: .4s;
+}
+.assasin_creed .dolar{
+   margin-top: -210px;
+   margin-left: 220px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.trendinh_4_blocks{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+/* top games section starts */
+.top_games{
+    width: 100%;
+    height: 600px;
+    background-color: #ead9d9;
+    border-radius: 130px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.top_games h3{
+    color: rgb(183, 7, 7);
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.top_games h2{
+    margin-left: 150px;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.top_games button{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -70px;
+    background-color:rgb(183, 7, 7) ;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(183, 7, 7);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.top_games button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+
+.trendinh_6_blocks .assasin_creed{
+    width: 190px;
+    background-color: white;
+    text-align: center;
+}
+.trendinh_6_blocks .assasin_creed img{
+    border-radius: 30px 30px 30px 30px;
+}
+.trendinh_6_blocks .assasin_creed span{
+    background-color: rgb(183, 7, 7);
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.trendinh_6_blocks .assasin_creed:hover span{
+    background-color: blue;
+    transition: .4s;
+}
+
+.trendinh_6_blocks{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+/* CATEGORIES section starts  */
+.categories{
+    margin-top: 100px;
+    text-align: center;
+}
+.categories h3{
+    color:rgb(183, 7, 7) ;
+    font-size: 20px;
+}
+.categories h2{
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.categorie_5_blocks .assasin_creed{
+    background-color: blue;
+    width: 235px;
+}
+.categorie_5_blocks .assasin_creed img{
+    margin-top: 80px;
+    border-radius: 30px 30px 30px 30px;
+}
+.categorie_5_blocks .assasin_creed h5{
+    margin-top: -280px;
+    color: white;
+    font-size: 30px;
+}
+.categorie_5_blocks{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+
+
+.center_img img{
+    margin-top: 200px;
+    border-radius: 30px;
+}
+
+
+.OUR_SHOP{
+    width: 500px;
+    height: 500px;
+    background-color: #ead9d9;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 100px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.OUR_SHOP span{
+    font-size: 40px;
+    color: blue;
+}
+.OUR_SHOP p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.OUR_SHOP button{
+    margin-top: 40px;
+    background-color:rgb(183, 7, 7) ;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(183, 7, 7);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.OUR_SHOP button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+
+
+.NEWSLETTER{
+    width: 500px;
+    height: 400px;
+    background-color: #ead9d9;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 800px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.NEWSLETTER span{
+    font-size: 40px;
+    color: blue;
+}
+.NEWSLETTER p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.NEWSLETTER button{
+    margin-top: 40px;
+    background-color:rgb(183, 7, 7) ;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(183, 7, 7);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.NEWSLETTER button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+.NEWSLETTER form{
+    margin-top: 40px;
+}
+.NEWSLETTER form input{
+    border-radius: 40px;
+    height: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 300px;
+}
+.NEWSLETTER form input:focus{
+    border: 0.5px solid rgb(2, 125, 178);
+    outline: 3px solid rgb(2, 125, 178);
+    transition: .1s;
+}
+.NEWSLETTER form button{
+    background-color: rgb(183, 7, 7);
+    border-radius: 40px;
+    border: 1px solid rgb(183, 7, 7);
+    height: 52px;
+    cursor: pointer;
+    color: white;
+    /* padding: 20px; */
+    font-size: 15px;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 0px;
+    width: 200px;
+    
+}
+.NEWSLETTER form button:hover{
+    background-color: blue;
+    transition: .4s;
+    border: 1px solid blue;
+}
+
+
+/* footer section starts */
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(29, 72, 230);
+    margin-top: 200px;
+    border-radius: 170px 170px 0px 0px;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.to-top{
+    background: rgb(34, 0, 255);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+ 
+ 
+ }
+ .to-top.active{
+     bottom: 32px;
+     pointer-events: auto;
+     opacity: 1;
+     
+ } 
+
+
+ nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .closeMenu , .icons i{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+ @media (max-width: 768px){
+    header{
+        background-image: url(img/banner-bg.jpg);
+        width: 160%;
+        height: 200vh;
+        border-radius: 0px 0px 70px 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav .mainMenu{
+        height: 50vh;
+        margin-top: 150px;
+        width: 50%;
+        margin-left: 15%;
+        border-radius: 30px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(239, 239, 239);
+        transition: top 1s ease;
+        display: none;
+        
+    }
+    nav .mainMenu li a{
+        color: black;
+    }
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .mainMenu li a:hover{
+        /* background-color: blue; */
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+        
+    }
+    .icons i{
+        display: inline-block;
+        padding: 12px;
+    }
+   .openMenu i{
+    margin-top: 20px;
+    margin-left: -100px;
+    background-color: blue;
+   }
+   .closeMenu i{
+    margin-top: 10px;
+    margin-left: -100px;
+    background-color: blue;
+   }
+
+   /* welcome section */
+   .welcome{
+    margin-top: -1300px;
+    width: 100%;
+    margin-left: 35%;
+   }
+   .banner_img{
+    margin-top: 500px;
+    margin-left: -100%;
+    
+   }
+   .dolar_22{
+    margin-left: 480px;
+   }
+   .percent_40{
+    margin-left: 100px;
+   }
+   .all_blocks{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .free_storage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .free_storage img{
+    margin-right: 10%;
+   }
+
+   /* scroling button */
+  .to-top{
+    
+    background: rgb(34, 0, 255);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    margin-right: 200px;
+  }
+  .to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    margin-right: 200px;
+    
+    
+} 
+/* trending games section */
+.trendinh_4_blocks{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    
+
+
+ }
+
+
+
+
+
+
